@@ -1,0 +1,51 @@
+/* Selector{
+    Property: value;
+} */
+
+*{
+    text-align: left;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-leisure-background-image_280687.jpg);
+    background-size: cover;
+    
+}
+
+p {
+    color: rgb(22, 51, 216);
+    text-align: center;
+    border: 5px solid rgba(240, 55, 163, 0.911);
+    cursor: pointer;
+} 
+
+p{
+    text-decoration: underline; 
+    line-height:  20px;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bangers', cursive;  
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.webtext:first-child{
+    border: 5px solid red;
+}
+
+.active{
+    color: salmon;
+}
+
+#div1{
+    background: papayawhip;
+}
+
+#div2{
+    background: rgb(152, 201, 202);
+}
